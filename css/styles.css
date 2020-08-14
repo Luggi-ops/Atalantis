@@ -1,0 +1,209 @@
+html{
+    font-size: 62.5%; /**Equivalente de Rems para px**/
+}
+
+/**Globales**/
+
+body{
+    font-size: 1.8rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    line-height: 2rem;
+    letter-spacing: -0.11rem;
+    color: #524d4d;
+    margin: 0;
+    background-color: #dee0e3;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 300;
+}
+h2 {
+    font-size: 3.4rem;
+    font-weight: 400;
+    line-height: 4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+h4 {
+    font-size: 2.6rem;
+}
+
+img{
+    max-width: 100%;
+
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 95%;
+    max-width: 90rem;
+    margin: 0 auto;
+    
+}
+
+
+/**Header**/
+
+/**Barra de navegación**/
+
+.barra-navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.barra-navegacion a{
+    margin-left: 2rem;
+    color: #ffffff;
+}
+.elem-navegacion a{
+    text-decoration: none;
+    margin: 2rem 0 2rem 4rem;
+    color: #ffffff;
+}
+
+.fondo-header{
+    background: url(../img/fondo.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    max-height: 70rem;
+    background-attachment: fixed;
+    
+}
+
+.contenido-header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 20rem;
+    color: #ffffff;
+    position: relative;
+    top: 6.5rem;
+}
+
+/**Botones**/
+
+.boton-transparente{
+    margin: 2rem 2rem 2rem 4rem;
+    color: #ffffff;
+    background-color: transparent;
+    border-color: #ffffff;
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+    border-width: 0.2rem;
+    border-style: solid;
+    height: 5rem;
+    width: 15rem;
+}
+
+.boton-transparente:hover{
+    background-color: #ffffff45;
+    cursor: pointer;
+    
+}
+
+.boton-transparente:focus{
+    outline: none;
+}
+
+
+.boton-oscuro{
+    color: #303030;
+    background-color: #ffffffcc;
+    border: #ffffffcc;
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+    border-width: 0.2rem;
+    border-style: solid;
+    height: 5rem;
+    width: 15rem;
+
+}
+
+.boton-oscuro:hover{
+    background-color: #303030b3;
+    border: #303030b3;
+    color: #d6d6d9;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.boton-oscuro:focus{
+    outline: none;
+}
+
+
+/**Introduccion**/
+
+.contenido-introduccion{
+    height: 50rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    position: relative;
+    top: -15.5rem;
+    margin-bottom: 2rem
+}
+
+.espacio-introduccion{
+    height: 37rem;
+}
+
+.texto-introduccion{
+    width: 60rem;
+    text-align: center;
+
+}
+
+.contenido-introduccion img{
+    height: 30rem;
+    width: 85rem;
+    object-position: center center;
+    object-fit: cover;
+    margin-bottom: 3rem;
+}
+
+/**Principal**/
+
+.contenido-main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.icono-main{
+    
+    height: 10rem;
+    width: 10rem;
+    background-color: #e89980;
+    border-radius: 100%;
+    position: relative;
+    left: 14rem;
+}
+
+.articulo-main{
+    flex-basis: 0 0 calc(20.6% - 1rem);
+    height: 43rem;
+    width: 40rem;
+    margin-bottom: 2rem;
+    padding-top: 3rem;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 1rem;
+}
+
+.articulo-main img{
+    width: 37rem;
+    object-fit: cover;
+
+
+}
